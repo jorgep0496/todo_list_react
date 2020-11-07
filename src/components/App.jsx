@@ -73,7 +73,7 @@ export default class App extends React.Component {
                     <div className="row">
                         <div className="col-md-12">
                             <div>
-                                {this.state.list.length === 0 && <h5 className="noTask">No tasks yet. Please write a task and press the <i className="fas fa-plus"></i> button</h5>}
+                                {this.state.list.length === 0 && <h5 className="noTask"><b>No tasks yet.</b> Please write a task and press the <i className="fas fa-plus"></i> button</h5>}
                                 <ul>
                                     {this.state.list.map(item => {
                                         return (
