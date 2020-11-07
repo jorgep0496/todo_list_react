@@ -1,0 +1,64 @@
+body {
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin: 0;
+    background-color: rgb(255, 255, 217);
+    padding-top: 40px;
+    
+    .container {
+        margin: auto;
+        width: 700px;
+        height: 100%;
+        text-align: center;
+        background-color: rgb(255, 255, 239);
+        font-size: 20px;
+        border: 1px solid lightgray;
+        box-shadow: 5px 10px #88888833;
+
+        .noTask {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 80px;
+        }
+
+        #myInput {
+            width: 500px;
+            border: none;
+            border-bottom: 1px solid lightgray;
+            border-right: 1px solid lightgray;
+            background-color: rgb(252, 252, 227);
+            border-radius: 5px;
+            line-height: 35px;
+            
+        }
+
+        #myImput::placeholder {
+            color: blue;
+        }
+
+        #btn1 {
+            width: 41px;
+            height: 34px;
+            border-radius: 20px;
+            margin-left: 10px;
+        }
+        
+        li {
+            width: 470px;
+            margin-top: 13px;
+            margin-left: 45px;
+            text-align: start;
+            border-bottom: 1px solid lightgray;
+
+            .fas {
+                font-size: 18px;
+            }
+
+            .btn:hover {
+                color: rgb(146, 146, 146);
+            }
+        }
+    }
+}
